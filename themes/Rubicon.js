@@ -1,10 +1,9 @@
 import {
   Platform,
   StyleSheet,
-  NavigationExperimental,
   TouchableNativeFeedback
 } from 'react-native'
-import _ from 'lodash'
+import NavigationExperimental from 'react-native-navigation-experimental-compat'
 
 import {
   getTheme,
@@ -33,7 +32,9 @@ export default (customVariables = {}) => {
     ...customVariables
   }
 
-  return _.merge({}, getTheme(variables), {
+  const themeVars = getTheme(variables)
+
+  return Object.assign({}, themeVars, {
 
     // Html
     'shoutem.ui.Html': {

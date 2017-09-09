@@ -1,17 +1,10 @@
-import Rubicon, { defaultThemeVariables } from './themes/Rubicon'
-import blueTheme from './variables/blueThemeVariables.json'
-import noirTheme from './variables/noirThemeVariables.json'
-import roseTheme from './variables/roseThemeVariables.json'
+import Rubicon, { defaultThemeVariables } from './Rubicon'
+import noirTheme from './variables/noirThemeVariables'
 const getTheme = Rubicon
-const themes = {
-  Rubicon,
-  RubiconBleu: Rubicon(blueTheme),
-  RubiconNoir: Rubicon(noirTheme),
-  RubiconRose: Rubicon(roseTheme)
-}
+const RubiconNoir = getTheme(noirTheme)
 
 export {
   getTheme,
   defaultThemeVariables,
-  themes
+  RubiconNoir
 }

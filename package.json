@@ -17,20 +17,16 @@
   },
   "homepage": "https://github.com/andreimc/shoutem-components#readme",
   "dependencies": {
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.4",
+    "react-native-navigation-experimental-compat": "^1.0.0"
   },
   "peerDependencies": {
-    "react-native": "^0.4*"
+    "@shoutem/ui": "^0.21.3",
+    "react-native": "^0.48.2"
   },
   "rnpm": {
     "assets": [
       "fonts"
     ]
-  },
-  "devDependencies": {
-    "@shoutem/animation": "^0.11.0",
-    "@shoutem/theme": "^0.10.0",
-    "@shoutem/ui": "^0.21.3",
-    "react-native": "^0.48.2"
   }
 }
