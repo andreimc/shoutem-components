@@ -8,7 +8,7 @@ const defaultThemeVariables = {
     fontFamily: 'Rubik-Regular',
     fontStyle: 'normal',
     fontWeight: '700',
-    color: '#222222',
+    color: '#999999',
     fontSize: 25
   },
   title: {
@@ -16,13 +16,13 @@ const defaultThemeVariables = {
     fontStyle: 'normal',
     fontWeight: '700',
     fontSize: 20,
-    color: '#222222'
+    color: '#999999'
   },
   subtitle: {
     fontFamily: 'Rubik-Regular',
     fontStyle: 'normal',
     fontWeight: 'normal',
-    color: '#222222',
+    color: '#999999',
     fontSize: 15
   },
   caption: {
@@ -56,13 +56,13 @@ const defaultThemeVariables = {
   },
   navBarIconsColor: 'rgba(255, 255, 255, 0.5)',
   featuredNavBarTitleColor: '#ffffff',
-  featuredNavBarIconsColor: 'rgba(255, 255, 255, 0.5)',
+  featuredNavBarIconsColor: 'rgba255, 255, 255, 0.5)',
 
   mainNavBackground: '#171717',
   mainNavItemColor: 'rgba(255, 255, 255, 0.4)',
   mainNavItemBackground: '#171717',
   mainNavSelectedItemBackground: '#FFFFFF',
-  mainNavSelectedItemColor: '#222222',
+  mainNavSelectedItemColor: '#999999',
   mainNavSelectedItemBorderColor: '#363636',
   mainNavBorderColor: '#111111',
 
@@ -71,8 +71,8 @@ const defaultThemeVariables = {
   subNavListBorderColor: '#242424',
 
   primaryButtonText: {
-    fontFamily: 'Rubik-Regular',
-    fontStyle: 'bold',
+    fontFamily: 'Rubik-Bold',
+    fontStyle: 'normal',
     fontWeight: '600',
     fontSize: 12,
     color: 'rgba(255, 255, 255, 0.6)'

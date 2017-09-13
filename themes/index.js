@@ -1,9 +1,10 @@
 import Rubicon, { defaultThemeVariables } from './Rubicon'
-import noirTheme from './variables/noirThemeVariables'
+import noirThemeVariables from './variables/noirThemeVariables'
 const getTheme = Rubicon
-const RubiconNoir = getTheme(noirTheme)
+const RubiconNoir = getTheme(noirThemeVariables)
 
 export {
+  noirThemeVariables,
   getTheme,
   defaultThemeVariables,
   RubiconNoir
