@@ -56,7 +56,7 @@ const defaultThemeVariables = {
   },
   navBarIconsColor: 'rgba(255, 255, 255, 0.5)',
   featuredNavBarTitleColor: '#ffffff',
-  featuredNavBarIconsColor: 'rgba255, 255, 255, 0.5)',
+  featuredNavBarIconsColor: 'rgba(255, 255, 255, 0.5)',
 
   mainNavBackground: '#171717',
   mainNavItemColor: 'rgba(255, 255, 255, 0.4)',

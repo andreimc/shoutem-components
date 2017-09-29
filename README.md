@@ -5,3 +5,5 @@ yarn add shoutem-component
 
 react-native link
 ```
+
+WIP: needs some more love 

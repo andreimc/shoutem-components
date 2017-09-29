@@ -1,2 +1,3 @@
+import ModalPicker from './ModalPicker'
 
-export * from 'SocialButton'
+export { ModalPicker }

@@ -17,12 +17,13 @@
   },
   "homepage": "https://github.com/andreimc/shoutem-components#readme",
   "dependencies": {
+    "@shoutem/ui": "^0.21.3",
     "lodash": "^4.17.4",
     "prop-types": "^15.5.10",
-    "react-native-navigation-experimental-compat": "^1.0.0"
+    "react-native-navigation-experimental-compat": "^1.0.0",
+    "react-navigation": "^1.0.0-beta.11"
   },
   "peerDependencies": {
-    "@shoutem/ui": "^0.21.3",
     "react-native": "^0.48.2"
   }
 }
