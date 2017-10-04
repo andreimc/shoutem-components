@@ -1,6 +1,6 @@
 {
   "name": "shoutem-components",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Componenets for shoutem ui to use in non-shoutem projects",
   "main": "index.js",
   "scripts": {
