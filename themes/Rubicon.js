@@ -3,7 +3,7 @@ import {
   StyleSheet,
   TouchableNativeFeedback
 } from 'react-native'
-import NavigationExperimental from 'react-native-navigation-experimental-compat'
+import { Header } from 'react-navigation'
 
 import {
   getTheme,
@@ -16,7 +16,7 @@ import {
   changeColorAlpha
 } from '@shoutem/theme'
 
-const NAVIGATION_BAR_HEIGHT = NavigationExperimental.Header.HEIGHT
+const NAVIGATION_BAR_HEIGHT = Header.HEIGHT
 
 export const defaultThemeVariables = {
   ...defaultUiThemeVariables,
