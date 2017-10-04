@@ -39,6 +39,7 @@ export default StyleSheet.create({
 
   selectStyle: {
     flex: 1,
+    marginTop: 2,
     padding: 8
   },
 
