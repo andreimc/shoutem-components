@@ -1,6 +1,6 @@
 {
   "name": "shoutem-components",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Componenets for shoutem ui to use in non-shoutem projects",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/andreimc/shoutem-components#readme",
   "dependencies": {
-    "@shoutem/ui": "andreimc/ui.git#develop",
+    "@shoutem/ui": "git://github.com/andreimc/ui.git#develop",
     "lodash": "^4.17.4",
     "prop-types": "^15.5.10",
     "react-navigation": "^1.0.0-beta.11"
